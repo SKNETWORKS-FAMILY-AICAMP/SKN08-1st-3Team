@@ -12,6 +12,7 @@
 
 # 0. Introduction Team (팀 소개)
 ### ✅ 팀명 : NC🐘(Nose Childs )
+
 <table align=center>
   <tbody>
     <tr>
@@ -23,30 +24,27 @@
     <tr>
       <td align="center">
         <div>
-          <img src="https://github.com/user-attachments/assets/80f0a998-61ab-4de5-a652-51575e8a4468"width="200px; alt=""/>
+          <img src="https://avatars.githubusercontent.com/u/100367503?v=4"width="200px; alt="양의정"/>
         </div>
       </td>
       <td align="center">
         <div>
-          <img src="https://github.com/user-attachments/assets/30f29d8b-bcec-46c7-bce6-e6e4ec414e55"width="200px;" alt=""/>
+          <img src="https://avatars.githubusercontent.com/u/167101468?v=4"width="200px;" alt="유제나"/>
         </div>
       </td>
       <td align="center">
-        <img src="https://github.com/user-attachments/assets/c01c579b-7f4f-436b-984a-74a26d2cef44"width="200px;" alt=""/>
+        <img src="https://avatars.githubusercontent.com/u/122842851?v=4"width="200px;" alt="박예닮"/>
       </td>
       <td align="center">
-        <img src="https://github.com/user-attachments/assets/77eff59b-1c54-4d91-a49c-5f81cf28fb35"width="200px;" alt=""/>
-      </td>
-      <td align="center">
-        <img src="https://github.com/user-attachments/assets/49822355-b1ef-485b-a45b-dc2199d8397b"width="200px;" alt=""/>
+        <img src="https://avatars.githubusercontent.com/u/122842851?v=4"width="200px;" alt="정현서"/>
       </td>
     </tr>
     <tr>
-      <td><a href="https://github.com/Jh-jaehyuk"><div align=center>@Jh-jaehyuk</div></a></td>
-      <td><a href="https://github.com/MinMessi"><div align=center>@MinMessi</div></a></td>
-      <td><a href="https://github.com/Ah-ram"><div align=center>@Ah-ram</div></a></td>
-      <td><a href="https://github.com/ih9511"><div align=center>@ih9511</div></a></td>
-      <td><a href="https://github.com/y0ng98"><div align=center>@y0ng98</div></a></td>
+      <td><a href="https://github.com/UiJungYang"><div align=center>@UiJungYang</div></a></td>
+      <td><a href="https://github.com/denalog"><div align=center>@denalog</div></a></td>
+      <td><a href="https://github.com/Ah-ram"><div align=center>@</div></a></td>
+      <td><a href="https://github.com/jungs0914"><div align=center>@jungs0914</div></a></td>
+ 
     </tr>
   </tbody>
 </table>
