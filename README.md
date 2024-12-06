@@ -11,15 +11,14 @@
 
 
 # 0. Introduction Team (팀 소개)
-### ✅ 팀명 : TCP(Text Chat Programmers)
+### ✅ 팀명 : NC🐘(Nose Childs )
 <table align=center>
   <tbody>
     <tr>
-      <td align=center><b>한재혁</b></td>
-      <td align=center><b>민경원</b></td>
-      <td align=center><b>정아람</b></td>
-      <td align=center><b>최인헌</b></td>
-      <td align=center><b>이용휘</b></td>
+      <td align=center><b>양의정</b></td>
+      <td align=center><b>유제나</b></td>
+      <td align=center><b>박예닮</b></td>
+      <td align=center><b>정현서</b></td>
     </tr>
     <tr>
       <td align="center">
