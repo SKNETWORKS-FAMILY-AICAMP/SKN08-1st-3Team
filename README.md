@@ -11,8 +11,7 @@
 
 
 # 0. Introduction Team (팀 소개)
-### ✅ 팀명 : NC🐘(Nose Childs )
-
+### ✅ 팀명 : NC🐘(Nose Childs )  
 <table align=center>
   <tbody>
     <tr>
