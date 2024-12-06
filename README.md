@@ -43,14 +43,12 @@
       <td><a href="https://github.com/denalog"><div align=center>@denalog</div></a></td>
       <td><a href="https://github.com/Ah-ram"><div align=center>@</div></a></td>
       <td><a href="https://github.com/jungs0914"><div align=center>@jungs0914</div></a></td>
- 
     </tr>
   </tbody>
 </table>
-<br><br><br>
-
-
-
+  
+  
+  
 # 1. Introduction Project (프로젝트 개요)
 
 ### ✅프로젝트 명
