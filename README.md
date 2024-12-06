@@ -32,7 +32,7 @@
         </div>
       </td>
       <td align="center">
-        <img src="https://avatars.githubusercontent.com/u/122842851?v=4"width="200px;" alt="박예닮"/>
+        <img src="https://avatars.githubusercontent.com/u/188152811?v=4"width="200px;" alt="박예닮"/>
       </td>
       <td align="center">
         <img src="https://avatars.githubusercontent.com/u/122842851?v=4"width="200px;" alt="정현서"/>
@@ -41,7 +41,7 @@
     <tr>
       <td><a href="https://github.com/UiJungYang"><div align=center>@UiJungYang</div></a></td>
       <td><a href="https://github.com/denalog"><div align=center>@denalog</div></a></td>
-      <td><a href="https://github.com/Ah-ram"><div align=center>@</div></a></td>
+      <td><a href="https://github.com/pyd525"><div align=center>@pyd525</div></a></td>
       <td><a href="https://github.com/jungs0914"><div align=center>@jungs0914</div></a></td>
     </tr>
   </tbody>
