@@ -52,15 +52,17 @@
 # 1. Introduction Project (프로젝트 개요)
 
 ### ✅프로젝트 명
-논문 요약 및 설명 제공 서비스
+차량 DB 조회
 
 ### ✅프로젝트 소개
-논문 요약 및 설명 제공 서비스
+전국 자동차 등록 현황 및 기업 FAQ 조회 웹앱
 
-### ✅프로젝트 필요성(배경)
-- 새로운 기술에 대한 연구가 과거 대비 매우 빠른 속도로 발표되고 있습니다.
-- 이에 새로운 기술을 논문을 통해 접하고자 하는 니즈가 발생하고 있음을 발견하였고, 이러한 니즈를 충족시키기 위해 논문을 읽을 수 있는 방식을 LLM을 통해 제공하여 많은 사람들이 이용할 수 있도록 서비스화하고자 합니다.
-
+### ✅프로젝트 필요성(배경) 
+1. **데이터 관리 및 효율화**: 차량 관련 정보를 체계적으로 수집하고, 잘못된 데이터를 쉽게 수정할 수 있어 데이터 관리의 정확성과 효율성을 높입니다.  
+2. **분석 및 의사결정 지원**: 지역별 차량 등록 정보와 기업별 충전 요금 데이터를 시각화 및 분석하여 정책 수립, 시장 전략, 인프라 개선 등에 필요한 유용한 통찰을 제공합니다.  
+3. **전기차 보급 및 충전 인프라 최적화**: 전기차 등록 현황과 충전 요금 데이터를 통해 지역별 전기차 보급 현황과 충전소 배치의 효율성을 확인하고 개선할 수 있습니다.  
+4. **사용자 친화적인 정보 제공**: Streamlit UI를 통해 데이터를 직관적이고 간단하게 시각화하여, 비전문가도 쉽게 정보를 이해하고 활용할 수 있도록 지원합니다.
+   
 ## 비동기 통신 방식의 Deep Learning Local Server
 ### Syncronous Communication
 - 동기(Syncronous)란 동시에 일어난다는 뜻입니다. 즉, Request와 Response가 동시에 일어나는 통신 방식입니다.
@@ -83,12 +85,10 @@
 - 커스텀 서버 특성 상, 비교적 해킹에 취약할 가능성이 존재합니다. 이에 보안 프로토콜을 적용하여 외부에서 우리의 서비스에 접근할 수 없도록 보안 통신 환경을 구축하였습니다.
 
 ### ✅프로젝트 목표
-1. Front-End에서는 **TypeScript**와 **Vue.js + Vuetify3**를 이용하여 사용자 측면에서 유리한 UI-UX를 구축하였고, **Axios** 를 통해서 올바른 Request를 하는 것을 목표로 삼았습니다. 
-2. Back-End에서는 **Python**과 **Django**, **MySQL** 등을 이용하여 Request에 대한 정확한 Response와 원활한 웹사이트 운영하는 것을 목표로 삼았습니다.
-3. Fast API에서는 **Machine Learning** **Deep Learning** 이용하여 데이터를 분석 및 예측할 수 있도록 하였습니다.
-4. Deep Learning Local Server (DLLS) 에서는 **Fast API와 AI Client의 비동기 통신 환경**을 소켓 통신으로 구축하여 일반적인 동기 Request들이 처리될 때, 정상적으로 동작하도록 구축하였습니다.
-5. CI-CD는 지속적인 코드 통합과 지속적인 배포를 통해 궁극적으로 개발 속도를 높이고, 코드 품질을 유지하며, 개발과 운영의 경계를 허물며 신속하게 가치를 제공하는 것을 목표로 삼았습니다. 
-<br><br><br>
+1. **데이터 수집 및 관리 자동화**: 차량 정보를 효율적으로 크롤링하고 잘못된 데이터를 자동으로 수정할 수 있는 시스템 구축.  
+2. **정보 시각화 및 분석 제공**: 지역별 차량 등록 현황 및 기업별 충전 요금을 시각화하여 사용자에게 유용한 데이터를 제공.  
+3. **사용자 친화적 인터페이스 개발**: Streamlit 기반 UI를 통해 데이터를 쉽게 조회하고 이해할 수 있는 환경 제공.  
+4. **전기차 인프라 최적화 지원**: 데이터 분석을 통해 전기차 보급 및 충전 인프라 관련 정책 수립과 개선에 기여.  
 
 
 
@@ -404,36 +404,38 @@ return {"generatedText": output["output_text"]}
 
 
 # 8. Result (수행 결과)
-### ✅ Frontend / Backend / FastAPI / DLLS 구성에서 모든 동작이 안정적으로 잘 실행되는지 확인
-### ✅ FastAPI - DLLS 구성에서 사용자 요청에 따른 LLM 동작이 잘 동작하는지 확인
-### ✅ 구성한 사용자 정의형 프로토콜이 잘 동작하는지 확인
 ### ✅ 시연 결과 모습
+![image](https://github.com/user-attachments/assets/8aecd593-11ed-4325-ac2b-282e0f1cc977)
+![image](https://github.com/user-attachments/assets/47a13bdb-d2c5-4435-bef8-df384082c84c)
+![image](https://github.com/user-attachments/assets/e02c1a59-9d0b-41b4-b323-cb2cfdc510fb)
 
-![image](https://github.com/user-attachments/assets/09b2e0f6-66a1-4288-a012-81d424b158e9) 
-![image](https://github.com/user-attachments/assets/4f6940df-a192-43a9-a4d0-8e425dc25290)
-![image](https://github.com/user-attachments/assets/026a0e22-7868-4cf3-9aad-6911ae90a7a6)
-![image](https://github.com/user-attachments/assets/acebf5fb-cbfc-4053-96f8-57879e1ee081)
-![image](https://github.com/user-attachments/assets/c4017585-5472-48d0-905b-ec3b713c7ce3) 
-![image](https://github.com/user-attachments/assets/ffe79024-74c2-42b2-bab7-d759514eb208)  
-![image](https://github.com/user-attachments/assets/fdb4576b-e308-4d77-a82b-237857b53184)
-![image](https://github.com/user-attachments/assets/e86076e9-ed73-49d9-96f0-4ad491f83783)
-![image](https://github.com/user-attachments/assets/cc0f7bb1-fe7f-4457-94ca-1195a3fba255)
+### ✅ DB생성
+![image](https://github.com/user-attachments/assets/aa80a35b-356b-4350-9642-24e019bdd3df)
+![image](https://github.com/user-attachments/assets/c630e66f-20c8-4ff2-aa0c-e7de8684c729)
+![image](https://github.com/user-attachments/assets/48427a03-3cfe-471a-a4ee-10cbba330388)
+![image](https://github.com/user-attachments/assets/70e6dbf9-1229-467d-a8d5-efe424ce4e2a)
+
+### ✅ PostMan 결과
+![image](https://github.com/user-attachments/assets/66107076-2e88-4354-bd3a-d184c9ffa312)
+![image](https://github.com/user-attachments/assets/2c373fae-ef69-4731-b7bb-f8cabc370438)
+![image](https://github.com/user-attachments/assets/0201f50d-1a61-4f27-a365-4b3a71dd4748)
+![image](https://github.com/user-attachments/assets/392a1097-8016-4cd9-8177-214cb843dec9)
+
+
 
 <br><br><br>
 
   
 # 9. 한 줄 회고
-🤓<b>한재혁</b>  
+🤓<b>양의정</b>  
 _단순히 LLM을 이용하여 개발만 한 것이 아니라 AWS로 서비스 배포까지 진행해볼 수 있어서 좋은 경험이었습니다!👏_
 
-👨‍💻<b>민경원</b>  
+👨‍💻<b>유제나</b>  
 _Open AI API 등을 이용한 LLM 서비스 구축과 DLLS 구성을 통한 비동기 소켓 통신까지 직접 경험해 볼 수 있어서 좋았습니다._
 
-😺<b>정아람</b>  
+😺<b>정현서</b>  
 _좋은 팀원분들을 만나 덕분에 많이 배울 수 있었고 프로젝트도 잘 마무리될 수 있었다고 생각합니다. 수고하셨습니다😊_
 
-🪐<b>최인헌</b>  
+🪐<b>박예닮</b>  
 _AWS에 대한 개념이 모호했는데, 직접 사용하고 DLLS와의 연동 세팅을 해보면서 확실하게 알 수 있었습니다. 덕분에 DevOps에 좀 더 흥미가 생겼습니다. 모두 고생하셨습니다!_
 
-😁<b>이용휘</b>  
-_LLM을 활용해서 논문 분석 챗봇을 만들고 AWS에 배포까지 해볼 수 있는 좋은 경험이 되었습니다. 팀원분들이 모두 열심히 해주셔서 잘 마무리할 수 있었습니다. 고생하셨습니다!_
