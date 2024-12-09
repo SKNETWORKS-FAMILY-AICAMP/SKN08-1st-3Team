@@ -110,38 +110,17 @@
     <td>Development & Merge</td>
     <td><img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=Git&logoColor=white"/></td>
     <td><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=GitHub&logoColor=white"/></td>
-    <td><img src="https://img.shields.io/badge/gitkraken-179287?style=flat&logo=Git&logoColor=gitkraken&logoColor=white"/></td>
-  </tr>  
+    
 </table>
 
 >### <span style="color:cyan"> Frontend </span>
 <table>
-  <tr>
-    <td>FE IDE</td>
-    <td><img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white"/></td>
-    <td></td>
-    <td></td>
   </tr>
   <tr>
     <td>Markup & Style & JS</td>
     <td><img src="https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white"/></td>
     <td><img src="https://img.shields.io/badge/css-1572B6?style=flat&logo=css3&logoColor=white"/></td>
-    <td><img src="https://img.shields.io/badge/Javascript-ffb13b?style=flat&logo=javascript&logoColor=white"/></td>
-  </tr> 
-  <tr>
-    <td>Vue & TypeScript</td>
-    <td><img src="https://img.shields.io/badge/vue.js-4FC08D?style=flat&logo=vue.js&logoColor=white"/></td>
-    <td><img src="https://img.shields.io/badge/vuetify-%231867C0?style=flat&logo=vuetify&logoColor=white"/></td>
-    <td><img src="https://img.shields.io/badge/typescript-3178C6?style=flat&logo=typescript&logoColor=black"/></td>
-  </tr> 
-  <tr>
-    <td>Async HTTP/AJAX Request</td>
-    <td><img src="https://img.shields.io/badge/axios-%235A29E4?style=flat&logo=axios&logoColor=white"/></td>
-    <td></td>
-    <td></td>
-  </tr>
 </table>
-
 
 >### <span style="color:cyan"> Backend </span>
 <table>
@@ -155,63 +134,7 @@
     <td><img src="https://img.shields.io/badge/mysql-4479A1?style=flat&logo=mysql&logoColor=white"/></td>
     <td></td>
   </tr>
-  <tr>
-    <td>Docker</td>
-    <td><img src="https://img.shields.io/badge/docker-%232496ED?style=flat&logo=docker&logoColor=white"/></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>In Memory Caching DB</td>
-    <td><img src="https://img.shields.io/badge/redis-%23FF4438?style=flat&logo=redis&logoColor=white"/></td>
-    <td></td>
-  </tr>
-</table>
-
->### <span style="color:cyan"> LLM with DLLS </span>
-<table>  
-  <tr>
-    <td>Deep Learning</td>
-    <td><img src="https://img.shields.io/badge/Deep_Learning-00599C?style=flat&logo=deep-learning&logoColor=white"/></td>
-    <td><img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white"/></td>
-    <td><img src="https://img.shields.io/badge/Keras-D00000?style=flat&logo=keras&logoColor=white"/></td>
-    <td><img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white"/></td>
-  </tr>  
-  <tr>
-    <td>LLM</td>
-    <td><img src="https://img.shields.io/badge/LLM-4B8BBE?style=flat&logo=python&logoColor=white"/></td>
-    <td><img src="https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white"/></td>
-    <td><img src="https://img.shields.io/badge/Llama-FF4500?style=flat&logo=llama&logoColor=white"/></td>
-    <td><img src="https://img.shields.io/badge/Hugging%20Face-FFDE47?style=flat&logo=huggingface&logoColor=white"/></td>
-  </tr>
-  <tr>
-    <td>DLLS</td>
-    <td><img src="https://img.shields.io/badge/fastapi-%23009688?style=flat&logo=fastapi&logoColor=white"/></td>
-    <td><img src="https://img.shields.io/badge/Async%20Socket%20Server-FF6F00?style=flat&logo=socket.io&logoColor=white"/></td>
-    <td><img src="https://img.shields.io/badge/Async%20Socket%20Client-007ACC?style=flat&logo=socket.io&logoColor=white"/></td>
-    <td></td>
-  </tr>  
-</table>
-
->### <span style="color:cyan"> CI-CD Infrastructure </span>
-<table>
-  <tr>
-    <td>OS & Remote</td>
-    <td><img src="https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black"/></td>
-    <td><img src="https://img.shields.io/badge/WSL-4E9A06?style=flat&logo=linux&logoColor=white"/></td>
-    <td></td>
-  </tr>  
-  <tr>
-    <td>AWS</td>
-    <td><img src="https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonwebservices&logoColor=white"/></td>
-    <td><img src="https://img.shields.io/badge/AWS_EC2-FF9900?style=flat&logo=amazon-ec2&logoColor=white"/></td>
-    <td><img src="https://img.shields.io/badge/AWS_S3-569A31?style=flat&logo=amazon-s3&logoColor=white"/></td>
-  </tr>  
-  <tr>
-    <td>GitHub & GitHub Action</td>
-    <td><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=GitHub&logoColor=white"/></td>
-    <td><img src="https://img.shields.io/badge/github%20actions-2088FF?style=flat&logo=github-actions&logoColor=white"/></td>
-    <td></td>
-  </tr>  
+  
 </table>
 <br><br><br>
 
@@ -393,8 +316,6 @@ return {"generatedText": output["output_text"]}
 
 
 # 8. Result (수행 결과)
-### ✅ Streamlit UI 구성 완료: 자동차 등록 현황과 통계를 시각화한 대화형 대시보드를 구성하여 사용자에게 제공하였습니다.
-![image](https://github.com/user-attachments/assets/aa80a35b-356b-4350-9642-24e019bdd3df)
 
 ### ✅ PostMan 결과
 ![image](https://github.com/user-attachments/assets/66107076-2e88-4354-bd3a-d184c9ffa312)
@@ -403,21 +324,11 @@ return {"generatedText": output["output_text"]}
 ![image](https://github.com/user-attachments/assets/392a1097-8016-4cd9-8177-214cb843dec9)
 
 ### ✅ SQL 동작 확인: MySQL 데이터베이스에서 데이터를 정확히 삽입하고 가져오는 기능이 정상적으로 작동함을 확인했습니다.
-![image](https://github.com/user-attachments/assets/25294d10-3548-4720-8dd0-54737fa5410e)
-![image](https://github.com/user-attachments/assets/84e27ac6-3449-4fab-a5ca-0db86ef14d7d)
-![image](https://github.com/user-attachments/assets/93d90458-e390-498e-93f4-065b4ee6d0ea)
-![image](https://github.com/user-attachments/assets/966d1f6b-a51d-4838-a7c5-b02c5814b63a)
-
-### ✅ 데이터 크롤링 성공: 주요 자동차 등록 정보를 제공하는 웹사이트로부터 데이터를 성공적으로 크롤링하여 MySQL 데이터베이스에 저장하였습니다.
-![image](https://github.com/user-attachments/assets/8aecd593-11ed-4325-ac2b-282e0f1cc977)
-
-### ✅ Streamlit UI 구성 완료: 자동차 등록 현황과 통계를 시각화한 대화형 대시보드를 구성하여 사용자에게 제공하였습니다.
 ![image](https://github.com/user-attachments/assets/8ce37889-8a67-4ae5-8585-c2210fd84f2c)
 ![image](https://github.com/user-attachments/assets/4ad7156f-38e1-495d-bcfc-4982eb2a528a)
 ![image](https://github.com/user-attachments/assets/600e565e-d874-4764-9197-cf38bdc2bcc3)
 ![image](https://github.com/user-attachments/assets/d7c9c2a9-9cdf-4305-aee7-e91bbf184157)
-![image](https://github.com/user-attachments/assets/498b401f-1c35-474b-be94-aadd29d33607)
-![image](https://github.com/user-attachments/assets/b2adee6d-21db-4f3c-9898-9f785a637b10)
+
 
 ### ✅ 데이터 크롤링 성공: 주요 자동차 등록 정보를 제공하는 웹사이트로부터 데이터를 성공적으로 크롤링하여 MySQL 데이터베이스에 저장하였습니다.
 ![image](https://github.com/user-attachments/assets/8aecd593-11ed-4325-ac2b-282e0f1cc977)
@@ -438,5 +349,5 @@ _😍데이터를 크롤링하고 MySQL 데이터베이스에 연동하며 데�
 _좋은 팀원분들을 만나 덕분에 많이 배울 수 있었고 프로젝트도 잘 마무리될 수 있었다고 생각합니다. 수고하셨습니다😊_
 
 🪐<b>박예닮</b>  
-_AWS에 대한 개념이 모호했는데, 직접 사용하고 DLLS와의 연동 세팅을 해보면서 확실하게 알 수 있었습니다. 덕분에 DevOps에 좀 더 흥미가 생겼습니다. 모두 고생하셨습니다!_
+_해보고 느낀건 아직은 많이 미숙한거같습니다 열심히해야될거같습니다 미안합니다 사랑합니다 감사합니다._
 
