@@ -57,6 +57,10 @@
 ### ✅프로젝트 소개
 전국 자동차 등록 현황 및 기업 FAQ 조회 웹앱
 
+이 프로젝트는 다양한 자동차 관련 웹사이트에서 차량 등록 현황 및 정보를 크롤링하여 데이터를 수집하고, 
+이를 기반으로 데이터를 시각화 및 분석하며, 웹앱 사용자에게 직관적인 UI로 제공하는 시스템입니다. 
+특히, Streamlit 기반의 대화형 웹 애플리케이션을 통해 사용자가 데이터를 간편하게 탐색할 수 있도록 설계되었습니다.
+
 ### ✅프로젝트 필요성(배경) 
 1. **데이터 관리 및 효율화**: 차량 관련 정보를 체계적으로 수집하고, 잘못된 데이터를 쉽게 수정할 수 있어 데이터 관리의 정확성과 효율성을 높입니다.  
 2. **분석 및 의사결정 지원**: 지역별 차량 등록 정보와 기업별 충전 요금 데이터를 시각화 및 분석하여 정책 수립, 시장 전략, 인프라 개선 등에 필요한 유용한 통찰을 제공합니다.  
@@ -404,23 +408,18 @@ return {"generatedText": output["output_text"]}
 
 
 # 8. Result (수행 결과)
-### ✅ 시연 결과 모습
+### ✅ 데이터 크롤링 성공: 주요 자동차 등록 정보를 제공하는 웹사이트로부터 데이터를 성공적으로 크롤링하여 MySQL 데이터베이스에 저장하였습니다.
 ![image](https://github.com/user-attachments/assets/8aecd593-11ed-4325-ac2b-282e0f1cc977)
-![image](https://github.com/user-attachments/assets/47a13bdb-d2c5-4435-bef8-df384082c84c)
-![image](https://github.com/user-attachments/assets/e02c1a59-9d0b-41b4-b323-cb2cfdc510fb)
 
-### ✅ DB생성
+
+### ✅ Streamlit UI 구성 완료: 자동차 등록 현황과 통계를 시각화한 대화형 대시보드를 구성하여 사용자에게 제공하였습니다.
 ![image](https://github.com/user-attachments/assets/aa80a35b-356b-4350-9642-24e019bdd3df)
-![image](https://github.com/user-attachments/assets/c630e66f-20c8-4ff2-aa0c-e7de8684c729)
-![image](https://github.com/user-attachments/assets/48427a03-3cfe-471a-a4ee-10cbba330388)
-![image](https://github.com/user-attachments/assets/70e6dbf9-1229-467d-a8d5-efe424ce4e2a)
 
-### ✅ PostMan 결과
+
+### ✅ SQL 동작 확인: MySQL 데이터베이스에서 데이터를 정확히 삽입하고 가져오는 기능이 정상적으로 작동함을 확인했습니다.
 ![image](https://github.com/user-attachments/assets/66107076-2e88-4354-bd3a-d184c9ffa312)
-![image](https://github.com/user-attachments/assets/2c373fae-ef69-4731-b7bb-f8cabc370438)
-![image](https://github.com/user-attachments/assets/0201f50d-1a61-4f27-a365-4b3a71dd4748)
-![image](https://github.com/user-attachments/assets/392a1097-8016-4cd9-8177-214cb843dec9)
 
+### ✅ 시연 결과 이미지 추가: 데이터 시각화 결과 및 웹앱 UI 작동 모습 추가.
 
 
 <br><br><br>
@@ -428,10 +427,10 @@ return {"generatedText": output["output_text"]}
   
 # 9. 한 줄 회고
 🤓<b>양의정</b>  
-_단순히 LLM을 이용하여 개발만 한 것이 아니라 AWS로 서비스 배포까지 진행해볼 수 있어서 좋은 경험이었습니다!👏_
+_👏크롤링을 통해 데이터를 수집하고 데이터베이스에 저장한 정보를 한눈에 볼 수 있는 사이트를 만들었습니다. 이 프로젝트를 통해 개발이 이런 것이구나를 느낄 수 있는 기회였습니다.👏_
 
 👨‍💻<b>유제나</b>  
-_Open AI API 등을 이용한 LLM 서비스 구축과 DLLS 구성을 통한 비동기 소켓 통신까지 직접 경험해 볼 수 있어서 좋았습니다._
+_😍데이터를 크롤링하고 MySQL 데이터베이스에 연동하며 데이터 수집부터 저장, 처리, Streamlit을 활용한 시각화까지 전 과정을 직접 다뤄볼 수 있어 유익한 경험이었습니다. 이 과정을 통해 데이터 활용의 흐름을 이해할 수 있었습니다.😍_
 
 😺<b>정현서</b>  
 _좋은 팀원분들을 만나 덕분에 많이 배울 수 있었고 프로젝트도 잘 마무리될 수 있었다고 생각합니다. 수고하셨습니다😊_
