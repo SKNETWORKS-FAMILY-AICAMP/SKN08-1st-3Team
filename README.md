@@ -230,23 +230,8 @@
 작은 것 같지만 이와 같은 것들이 쌓여서 아주 기민하고 민첩한 조직을 만들어 냅니다.
 ```
 # 4. 애자일 보드
-### ✅ Frontend - Frontend 페이지를 Vue 로 구성 (화면 설계서)
-![image](https://github.com/user-attachments/assets/b547b885-25f8-413f-ab40-3251e8b77e95)
-![image](https://github.com/user-attachments/assets/b947d9db-b2d1-4494-8842-82285289d6ff)
-<br><br><br>
-
-### ✅ Backend - Backend 데이터 관리로 Django 구성(요구 사항 정의서)
-![image](https://github.com/user-attachments/assets/89ece460-81bd-44cf-bc7d-644487b3b267)
-<br><br><br>
-
-### ✅ FastAPI - AI 서빙용으로 FastAPI 구성
-![image](https://github.com/user-attachments/assets/ccd6592b-4e7c-4fab-a7fe-6f16e8515195)
-<br><br><br>
-
-### ✅ AI Client - 비용 최적화를 위해 DLLS 구성 (모델 파인튜닝 및 추론 설계서)
-![image](https://github.com/user-attachments/assets/ee098b0b-77b0-4e53-9a47-836e61081638)
-<br><br><br>
-
+![image](https://github.com/user-attachments/assets/3a004f06-79ca-4969-ac43-419d35f588c1)
+![image](https://github.com/user-attachments/assets/1067094c-efa8-40f3-9c72-8742af0a5160)
 
 
 # 5. 비용 최적화를 위한 Deep Learning Local Server 구성 + 보안 설정을 위한 TLS / SSL 소켓 구성
@@ -404,10 +389,12 @@ return {"generatedText": output["output_text"]}
 
 
 # 8. Result (수행 결과)
-### ✅ 시연 결과 모습
-![image](https://github.com/user-attachments/assets/8aecd593-11ed-4325-ac2b-282e0f1cc977)
-![image](https://github.com/user-attachments/assets/47a13bdb-d2c5-4435-bef8-df384082c84c)
-![image](https://github.com/user-attachments/assets/e02c1a59-9d0b-41b4-b323-cb2cfdc510fb)
+
+### ✅ PostMan 결과
+![image](https://github.com/user-attachments/assets/66107076-2e88-4354-bd3a-d184c9ffa312)
+![image](https://github.com/user-attachments/assets/2c373fae-ef69-4731-b7bb-f8cabc370438)
+![image](https://github.com/user-attachments/assets/0201f50d-1a61-4f27-a365-4b3a71dd4748)
+![image](https://github.com/user-attachments/assets/392a1097-8016-4cd9-8177-214cb843dec9)
 
 ### ✅ DB생성
 ![image](https://github.com/user-attachments/assets/aa80a35b-356b-4350-9642-24e019bdd3df)
@@ -415,11 +402,10 @@ return {"generatedText": output["output_text"]}
 ![image](https://github.com/user-attachments/assets/48427a03-3cfe-471a-a4ee-10cbba330388)
 ![image](https://github.com/user-attachments/assets/70e6dbf9-1229-467d-a8d5-efe424ce4e2a)
 
-### ✅ PostMan 결과
-![image](https://github.com/user-attachments/assets/66107076-2e88-4354-bd3a-d184c9ffa312)
-![image](https://github.com/user-attachments/assets/2c373fae-ef69-4731-b7bb-f8cabc370438)
-![image](https://github.com/user-attachments/assets/0201f50d-1a61-4f27-a365-4b3a71dd4748)
-![image](https://github.com/user-attachments/assets/392a1097-8016-4cd9-8177-214cb843dec9)
+### ✅ 시연 결과 모습
+![image](https://github.com/user-attachments/assets/8aecd593-11ed-4325-ac2b-282e0f1cc977)
+![image](https://github.com/user-attachments/assets/47a13bdb-d2c5-4435-bef8-df384082c84c)
+![image](https://github.com/user-attachments/assets/e02c1a59-9d0b-41b4-b323-cb2cfdc510fb)
 
 
 
