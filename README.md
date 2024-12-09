@@ -408,9 +408,6 @@ return {"generatedText": output["output_text"]}
 
 
 # 8. Result (수행 결과)
-### ✅ 데이터 크롤링 성공: 주요 자동차 등록 정보를 제공하는 웹사이트로부터 데이터를 성공적으로 크롤링하여 MySQL 데이터베이스에 저장하였습니다.
-![image](https://github.com/user-attachments/assets/8aecd593-11ed-4325-ac2b-282e0f1cc977)
-
 
 ### ✅ Streamlit UI 구성 완료: 자동차 등록 현황과 통계를 시각화한 대화형 대시보드를 구성하여 사용자에게 제공하였습니다.
 ![image](https://github.com/user-attachments/assets/aa80a35b-356b-4350-9642-24e019bdd3df)
@@ -419,7 +416,8 @@ return {"generatedText": output["output_text"]}
 ### ✅ SQL 동작 확인: MySQL 데이터베이스에서 데이터를 정확히 삽입하고 가져오는 기능이 정상적으로 작동함을 확인했습니다.
 ![image](https://github.com/user-attachments/assets/66107076-2e88-4354-bd3a-d184c9ffa312)
 
-### ✅ 시연 결과 이미지 추가: 데이터 시각화 결과 및 웹앱 UI 작동 모습 추가.
+### ✅ 데이터 크롤링 성공: 주요 자동차 등록 정보를 제공하는 웹사이트로부터 데이터를 성공적으로 크롤링하여 MySQL 데이터베이스에 저장하였습니다.
+![image](https://github.com/user-attachments/assets/8aecd593-11ed-4325-ac2b-282e0f1cc977)
 
 
 <br><br><br>
