@@ -158,7 +158,7 @@
 ### 5-2 Socket Client (ai-client) 구성 및 구동 방법
 
 
-```
+
 
 # 6. Result (수행 결과)
 
