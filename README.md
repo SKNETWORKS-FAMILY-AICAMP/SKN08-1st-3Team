@@ -110,38 +110,17 @@
     <td>Development & Merge</td>
     <td><img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=Git&logoColor=white"/></td>
     <td><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=GitHub&logoColor=white"/></td>
-    <td><img src="https://img.shields.io/badge/gitkraken-179287?style=flat&logo=Git&logoColor=gitkraken&logoColor=white"/></td>
-  </tr>  
+    
 </table>
 
 >### <span style="color:cyan"> Frontend </span>
 <table>
-  <tr>
-    <td>FE IDE</td>
-    <td><img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white"/></td>
-    <td></td>
-    <td></td>
   </tr>
   <tr>
     <td>Markup & Style & JS</td>
     <td><img src="https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white"/></td>
     <td><img src="https://img.shields.io/badge/css-1572B6?style=flat&logo=css3&logoColor=white"/></td>
-    <td><img src="https://img.shields.io/badge/Javascript-ffb13b?style=flat&logo=javascript&logoColor=white"/></td>
-  </tr> 
-  <tr>
-    <td>Vue & TypeScript</td>
-    <td><img src="https://img.shields.io/badge/vue.js-4FC08D?style=flat&logo=vue.js&logoColor=white"/></td>
-    <td><img src="https://img.shields.io/badge/vuetify-%231867C0?style=flat&logo=vuetify&logoColor=white"/></td>
-    <td><img src="https://img.shields.io/badge/typescript-3178C6?style=flat&logo=typescript&logoColor=black"/></td>
-  </tr> 
-  <tr>
-    <td>Async HTTP/AJAX Request</td>
-    <td><img src="https://img.shields.io/badge/axios-%235A29E4?style=flat&logo=axios&logoColor=white"/></td>
-    <td></td>
-    <td></td>
-  </tr>
 </table>
-
 
 >### <span style="color:cyan"> Backend </span>
 <table>
@@ -155,63 +134,7 @@
     <td><img src="https://img.shields.io/badge/mysql-4479A1?style=flat&logo=mysql&logoColor=white"/></td>
     <td></td>
   </tr>
-  <tr>
-    <td>Docker</td>
-    <td><img src="https://img.shields.io/badge/docker-%232496ED?style=flat&logo=docker&logoColor=white"/></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>In Memory Caching DB</td>
-    <td><img src="https://img.shields.io/badge/redis-%23FF4438?style=flat&logo=redis&logoColor=white"/></td>
-    <td></td>
-  </tr>
-</table>
-
->### <span style="color:cyan"> LLM with DLLS </span>
-<table>  
-  <tr>
-    <td>Deep Learning</td>
-    <td><img src="https://img.shields.io/badge/Deep_Learning-00599C?style=flat&logo=deep-learning&logoColor=white"/></td>
-    <td><img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white"/></td>
-    <td><img src="https://img.shields.io/badge/Keras-D00000?style=flat&logo=keras&logoColor=white"/></td>
-    <td><img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white"/></td>
-  </tr>  
-  <tr>
-    <td>LLM</td>
-    <td><img src="https://img.shields.io/badge/LLM-4B8BBE?style=flat&logo=python&logoColor=white"/></td>
-    <td><img src="https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white"/></td>
-    <td><img src="https://img.shields.io/badge/Llama-FF4500?style=flat&logo=llama&logoColor=white"/></td>
-    <td><img src="https://img.shields.io/badge/Hugging%20Face-FFDE47?style=flat&logo=huggingface&logoColor=white"/></td>
-  </tr>
-  <tr>
-    <td>DLLS</td>
-    <td><img src="https://img.shields.io/badge/fastapi-%23009688?style=flat&logo=fastapi&logoColor=white"/></td>
-    <td><img src="https://img.shields.io/badge/Async%20Socket%20Server-FF6F00?style=flat&logo=socket.io&logoColor=white"/></td>
-    <td><img src="https://img.shields.io/badge/Async%20Socket%20Client-007ACC?style=flat&logo=socket.io&logoColor=white"/></td>
-    <td></td>
-  </tr>  
-</table>
-
->### <span style="color:cyan"> CI-CD Infrastructure </span>
-<table>
-  <tr>
-    <td>OS & Remote</td>
-    <td><img src="https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black"/></td>
-    <td><img src="https://img.shields.io/badge/WSL-4E9A06?style=flat&logo=linux&logoColor=white"/></td>
-    <td></td>
-  </tr>  
-  <tr>
-    <td>AWS</td>
-    <td><img src="https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonwebservices&logoColor=white"/></td>
-    <td><img src="https://img.shields.io/badge/AWS_EC2-FF9900?style=flat&logo=amazon-ec2&logoColor=white"/></td>
-    <td><img src="https://img.shields.io/badge/AWS_S3-569A31?style=flat&logo=amazon-s3&logoColor=white"/></td>
-  </tr>  
-  <tr>
-    <td>GitHub & GitHub Action</td>
-    <td><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=GitHub&logoColor=white"/></td>
-    <td><img src="https://img.shields.io/badge/github%20actions-2088FF?style=flat&logo=github-actions&logoColor=white"/></td>
-    <td></td>
-  </tr>  
+  
 </table>
 <br><br><br>
 
