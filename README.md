@@ -234,10 +234,8 @@
 작은 것 같지만 이와 같은 것들이 쌓여서 아주 기민하고 민첩한 조직을 만들어 냅니다.
 ```
 # 4. 애자일 보드
-![image](https://github.com/user-attachments/assets/3ac9cc27-1c40-4253-94b5-928158c804ce)
-![image](https://github.com/user-attachments/assets/0575f955-aa18-4e8b-8235-81a51d28ba41)
-
-
+![image](https://github.com/user-attachments/assets/3a004f06-79ca-4969-ac43-419d35f588c1)
+![image](https://github.com/user-attachments/assets/1067094c-efa8-40f3-9c72-8742af0a5160)
 
 
 # 5. 비용 최적화를 위한 Deep Learning Local Server 구성 + 보안 설정을 위한 TLS / SSL 소켓 구성
@@ -396,13 +394,17 @@ return {"generatedText": output["output_text"]}
 
 # 8. Result (수행 결과)
 
+### ✅ PostMan 결과
+![image](https://github.com/user-attachments/assets/66107076-2e88-4354-bd3a-d184c9ffa312)
+![image](https://github.com/user-attachments/assets/2c373fae-ef69-4731-b7bb-f8cabc370438)
+![image](https://github.com/user-attachments/assets/0201f50d-1a61-4f27-a365-4b3a71dd4748)
+![image](https://github.com/user-attachments/assets/392a1097-8016-4cd9-8177-214cb843dec9)
+
 ### ✅ SQL 동작 확인: MySQL 데이터베이스에서 데이터를 정확히 삽입하고 가져오는 기능이 정상적으로 작동함을 확인했습니다.
 ![image](https://github.com/user-attachments/assets/25294d10-3548-4720-8dd0-54737fa5410e)
 ![image](https://github.com/user-attachments/assets/84e27ac6-3449-4fab-a5ca-0db86ef14d7d)
 ![image](https://github.com/user-attachments/assets/93d90458-e390-498e-93f4-065b4ee6d0ea)
 ![image](https://github.com/user-attachments/assets/966d1f6b-a51d-4838-a7c5-b02c5814b63a)
-
-
 
 ### ✅ Streamlit UI 구성 완료: 자동차 등록 현황과 통계를 시각화한 대화형 대시보드를 구성하여 사용자에게 제공하였습니다.
 ![image](https://github.com/user-attachments/assets/8ce37889-8a67-4ae5-8585-c2210fd84f2c)
@@ -412,13 +414,10 @@ return {"generatedText": output["output_text"]}
 ![image](https://github.com/user-attachments/assets/498b401f-1c35-474b-be94-aadd29d33607)
 ![image](https://github.com/user-attachments/assets/b2adee6d-21db-4f3c-9898-9f785a637b10)
 
-
-
 ### ✅ 데이터 크롤링 성공: 주요 자동차 등록 정보를 제공하는 웹사이트로부터 데이터를 성공적으로 크롤링하여 MySQL 데이터베이스에 저장하였습니다.
 ![image](https://github.com/user-attachments/assets/8aecd593-11ed-4325-ac2b-282e0f1cc977)
 ![image](https://github.com/user-attachments/assets/5b63c972-38ac-4c28-9e61-ff486701bf9d)
 ![image](https://github.com/user-attachments/assets/761dbbee-f4c5-4a28-a90a-4f59b31d1132)
-
 
 <br><br><br>
 
