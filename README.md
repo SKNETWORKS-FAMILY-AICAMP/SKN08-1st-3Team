@@ -153,9 +153,8 @@
 
 # 5. 비용 최적화를 위한 Deep Learning Local Server 구성 + 보안 설정을 위한 TLS / SSL 소켓 구성
 ### 5-1 Socket Server (FastAPI) 구성 및 구동 방법
-
-
 ### 5-2 Socket Client (ai-client) 구성 및 구동 방법
+
 
 
 
