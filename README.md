@@ -102,22 +102,27 @@
     <td>Development & Merge</td>
     <td><img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=Git&logoColor=white"/></td>
     <td><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=GitHub&logoColor=white"/></td>
-    
+    <td><img src="https://img.shields.io/badge/gitkraken-179287?style=flat&logo=Git&logoColor=gitkraken&logoColor=white"/></td>
+  </tr>  
 </table>
 
->### <span style="color:cyan"> Frontend </span>
+>### <span style="color:cyan"> Streamlit </span>
 <table>
+  <tr>
+    <td>PyCharm</td>
+    <td><img src="https://img.shields.io/badge/pycharm-%23000000?style=flat&logo=pycharm&logoColor=white"/></td>
+    <td><img src="https://img.shields.io/badge/python-3776AB?style=flat&logo=python&logoColor=white"/></td>
+    <td><img src="https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white"/></td>
+    <td></td>
+    <td></td>
   </tr>
-  <tr>
-    <td>Markup & Style & JS</td>
-    <td><img src="https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white"/></td>
-    <td><img src="https://img.shields.io/badge/css-1572B6?style=flat&logo=css3&logoColor=white"/></td>
 </table>
 
->### <span style="color:cyan"> Backend </span>
+
+>### <span style="color:cyan"> Data Server </span>
 <table>
   <tr>
-    <td>BE IDE & Language</td>
+    <td>PyCharm</td>
     <td><img src="https://img.shields.io/badge/pycharm-%23000000?style=flat&logo=pycharm&logoColor=white"/></td>
     <td><img src="https://img.shields.io/badge/python-3776AB?style=flat&logo=python&logoColor=white"/></td>
   </tr>  
@@ -126,7 +131,6 @@
     <td><img src="https://img.shields.io/badge/mysql-4479A1?style=flat&logo=mysql&logoColor=white"/></td>
     <td></td>
   </tr>
-  
 </table>
 <br><br><br>
 
