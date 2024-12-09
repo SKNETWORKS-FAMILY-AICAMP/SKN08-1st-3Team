@@ -393,6 +393,8 @@ return {"generatedText": output["output_text"]}
 
 
 # 8. Result (수행 결과)
+### ✅ Streamlit UI 구성 완료: 자동차 등록 현황과 통계를 시각화한 대화형 대시보드를 구성하여 사용자에게 제공하였습니다.
+![image](https://github.com/user-attachments/assets/aa80a35b-356b-4350-9642-24e019bdd3df)
 
 ### ✅ PostMan 결과
 ![image](https://github.com/user-attachments/assets/66107076-2e88-4354-bd3a-d184c9ffa312)
@@ -405,6 +407,9 @@ return {"generatedText": output["output_text"]}
 ![image](https://github.com/user-attachments/assets/84e27ac6-3449-4fab-a5ca-0db86ef14d7d)
 ![image](https://github.com/user-attachments/assets/93d90458-e390-498e-93f4-065b4ee6d0ea)
 ![image](https://github.com/user-attachments/assets/966d1f6b-a51d-4838-a7c5-b02c5814b63a)
+
+### ✅ 데이터 크롤링 성공: 주요 자동차 등록 정보를 제공하는 웹사이트로부터 데이터를 성공적으로 크롤링하여 MySQL 데이터베이스에 저장하였습니다.
+![image](https://github.com/user-attachments/assets/8aecd593-11ed-4325-ac2b-282e0f1cc977)
 
 ### ✅ Streamlit UI 구성 완료: 자동차 등록 현황과 통계를 시각화한 대화형 대시보드를 구성하여 사용자에게 제공하였습니다.
 ![image](https://github.com/user-attachments/assets/8ce37889-8a67-4ae5-8585-c2210fd84f2c)
