@@ -141,7 +141,8 @@
 
 
 # 3. 시스템 구성도
-![image](https://github.com/user-attachments/assets/66a78240-b41d-487a-8800-29bccbab7d41)
+![image](https://github.com/user-attachments/assets/9788694e-e1c0-47a4-81d8-bdbfacb7e267)
+
 <br><br><br>
 
 
@@ -157,161 +158,33 @@
 작은 것 같지만 이와 같은 것들이 쌓여서 아주 기민하고 민첩한 조직을 만들어 냅니다.
 ```
 # 4. 애자일 보드
-![image](https://github.com/user-attachments/assets/3a004f06-79ca-4969-ac43-419d35f588c1)
-![image](https://github.com/user-attachments/assets/1067094c-efa8-40f3-9c72-8742af0a5160)
+![image](https://github.com/user-attachments/assets/e426e258-d47e-49cb-8ad8-9e61db17803c)
+![image](https://github.com/user-attachments/assets/13b87327-f1d3-4184-b742-d229ed28ecce)
 
 
 # 5. 비용 최적화를 위한 Deep Learning Local Server 구성 + 보안 설정을 위한 TLS / SSL 소켓 구성
 ### 5-1 Socket Server (FastAPI) 구성 및 구동 방법
-(1) FastAPI 프로젝트 폴더 내에서 미리 구성해 놓은 소켓 통신 관련 submodule을 다음의 명령어를 통해 연결합니다.
-```bash
-git submodule add "socket server submodule Github 주소" template
-```
 
-(2) 다음과 같이 `template` 라는 submodule이 프로젝트 내부에 붙은 것을 확인할 수 있습니다.
-![image](https://github.com/user-attachments/assets/fc83fd3b-3cf0-4852-a6e1-c143afb3eed3)
-(3) 이후에 `cd include/socket_server/`에 소켓 서버의 역할을 하도록 해놓은 모듈에 대한 내용들을 다음의 명령어로 갱신시킵니다.
-![image](https://github.com/user-attachments/assets/1bf1190e-1aad-45d9-ad6b-d44090f88c0f)
-```bash
-cd ../..
-git submodule update --init --recursive
-```
-(4) 그러면 아래처럼 내용들이 추가된 것을 확인할 수 있습니다.
-![image](https://github.com/user-attachments/assets/bb624477-e11a-461c-a532-63389108c566)
-
-(5) 이후 미리 준비해놓은 보안 관련 파일들을 프로젝트 폴더에 배치시킵니다.
-```bash
-CA.pem
-svr.key
-svr.crt
-```
-
-(6) 서버를 구동시키면 다음과 같이 ai-client의 접속을 대기하는 것을 확인할 수 있습니다.
-![image](https://github.com/user-attachments/assets/dbdf40fe-1fc0-4e15-9c05-73618d202e63)
 
 ### 5-2 Socket Client (ai-client) 구성 및 구동 방법
-(1) ai-client 프로젝트 폴더 내에서 소켓 서버와 마찬가지로 미리 구성해 놓은 소켓 통신 관련 submodule을 다음의 명령어를 통해 연결합니다.
-```bash
-git submodule add "socket client submodule Github 주소" template
-```
-
-(2) 다음과 같이 `template` 라는 submodule이 프로젝트 내부에 붙은 것을 확인할 수 있습니다.
-![image](https://github.com/user-attachments/assets/7340470c-97c3-4ee4-ab18-d52bbc6a8c83)
-
-(3) 이후 미리 준비해놓은 보안 관련 파일들을 프로젝트 폴더에 배치시킵니다.
-```bash
-CA.pem
-client.key
-client.crt
-```
-
-(4) 서버를 구동시킨 상태에서 ai-client를 구동하여 socket server로 접속을 시도하면 다음과 같이 잘 접속되는 것을 확인할 수 있습니다. 또한, 미리 구성한 보안 접속도 잘 작동하는 것을 확인할 수 있습니다.
-![image](https://github.com/user-attachments/assets/98fdf151-ee23-41ba-a09d-fc1ac6ffd2d0)
-
 
 # 6. 데이터 전처리
 
 ## 벡터 저장소
-검색 속도 향상을 위해, FAISS를 사용하여 벡터 저장소를 생성 및 저장합니다. 
-<br>FAISS를 사용하기 위해 텍스트를 청크 단위로 나눈 후 Document 형태로 변환합니다.
 
-```python
-def splitTextIntoDocuments(self, text, chunkSize=256, chunkOverlap=16):
-    textSplitter = RecursiveCharacterTextSplitter(chunk_size=chunkSize, chunk_overlap=chunkOverlap)
-    chunkList = textSplitter.split_text(text)
-
-    documentList = [Document(page_content=chunk) for chunk in chunkList]
-    return documentList
-```
-이후, 임베딩을 통해 벡터화를 진행한 뒤 FAISS를 사용하여 벡터 저장소를 생성하고 저장합니다.
-
-```python
-def createFAISS(self, documentList):
-    embeddings = OpenAIEmbeddings()
-
-    vectorstore = FAISS.from_documents(documentList, embeddings)
-    print("success to create VectorStore")
-
-    return vectorstore
-
-def saveFAISS(self, vectorstore, dbPath):
-    vectorstore.save_local(dbPath)
 ```
 
-## TF-IDF 기반의 벡터 산출
-사용자로부터 논문 요약을 요청받았을 때, 전체 텍스트를 모두 사용하는 것은 비효율적일 수 있기 때문에 텍스트의 길이를 줄이는 추가적인 작업이 필요합니다.
-<br>먼저, 텍스트를 문장 단위로 나누고 TF-IDF 벡터를 생성합니다.
-```python
-sentences = sent_tokenize(mainText)
-
-vectorizer = TfidfVectorizer().fit_transform(sentences)
-vectors = vectorizer.toarray()
-```
-문장 간 유사도 행렬을 계산하고, 그 기반으로 그래프를 생성합니다.
-```python
-similarityMatrix = cosine_similarity(vectors)
-
-nxGraph = nx.from_numpy_array(similarityMatrix)
-scores = nx.pagerank(nxGraph)
-```
-점수에 따라 문장을 정렬한 뒤, 사용할 문장의 수를 잘 설정하여 선택합니다.
-```python
-rankedSentences = sorted(((scores[i], s) for i, s in enumerate(sentences)), reverse=True)
-top_n = 100
-rankedText = " ".join([sentence for score, sentence in rankedSentences[:top_n]])
-```
 
 # 7. 모델
-LLama3.0, LLama3.1, OpenAI API 등 여러 모델을 사용해 보고, 입력 토큰 수와 추론 속도를 고려하여
-<br>최종적으로 OpenAI의 gpt-4o-mini 모델을 선택하고, LangChain을 활용했습니다.
 
-## Basic
-LLM과 프롬프트 템플릿을 연결하여 체인을 만들고, 사용자가 보낸 메시지(userSendMessage)를 받아 question 변수에 해당하는 값으로 프롬프트 템플릿에 적용하고, 이를 통해 LLM이 텍스트를 생성하는 작업을 실행합니다.
-```python
-llm = ChatOpenAI(temperature=0.3, model_name="gpt-4o-mini")
-prompt_template = PromptTemplate(
-    input_variables=["question"],
-    template=template
-)
-
-chain = LLMChain(llm=self.llm, prompt=prompt_template)
-return {"generatedText": chain.run(userSendMessage)}
 ```
 
 ## 질의 응답
-논문 관련 질의응답 시, LLM의 단점인'사실 관계 오류 가능성'과 '맥락 이해의 관계'를 개선하기 위해 RAG(Retrieval-Augmented Generation)를 사용했습니다.
-<br>LangChain을 사용하여 RAG 체인을 구성하고, 사용자의 입력을 처리한 후 그에 대한 답변을 생성합니다.
-<br>LangChain 허브에서 프롬프트를 불러온 뒤, RAG체인을 구성합니다. RAG는 외부 데이터를 검색하고, 이를 LLM을 통해 답변을 생성하는 방식으로 동작합니다.
-<br>vectorstore.as_retriever()를 통해 전처리 과정에서 생성된 FAISS 벡터 저장소에서 문서를 검색하고, 사용자의 입력과 유사한 문서를 결과로 반환합니다.
-```python
-def format_docs(docs):
-    return "\n\n".join([doc.page_content for doc in docs])
 
-userSendMessage = fileKey.split(".")[0] + " " + userSendMessage
-prompt = hub.pull("godk/korean-rag", api_key=langchain_api_key)
-
-rag_chain = (
-    {"context": vectorstore.as_retriever() | format_docs, "question": RunnablePassthrough()}
-    | prompt
-    | self.llm
-    | StrOutputParser()
-)
-return {"generatedText": rag_chain.invoke(userSendMessage)}
 ```
 
 ## 요약
-마찬가지로 LLM 체인을 생성하고 여러 문서를 하나의 텍스트로 채워넣는 StuffDocumentsChain을 정의합니다. 전처리 과정으로 줄여진 문서화된 텍스트가 실제 Input에 해당합니다.
-<br>StuffDocumentsChain을 통해 문서 내용을 프롬프트에 삽입한 후, LLM을 사용해 요약을 생성하고, 그 결과를 반환합니다.
-```python
-docs = [Document(page_content=rankedText, metadata={})]
-prompt_template = """실제로 프롬프트가 작성되어 있지만 생략하겠습니다.
-"""
-prompt = PromptTemplate.from_template(prompt_template)
-llm_chain = LLMChain(llm=self.llm, prompt=prompt)
 
-stuff_chain = StuffDocumentsChain(llm_chain=llm_chain, document_variable_name="context")
-output = stuff_chain.invoke({"input_documents": docs})
-return {"generatedText": output["output_text"]}
 ```
 
 
