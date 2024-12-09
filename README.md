@@ -393,8 +393,6 @@ return {"generatedText": output["output_text"]}
 
 
 # 8. Result (수행 결과)
-### ✅ Streamlit UI 구성 완료: 자동차 등록 현황과 통계를 시각화한 대화형 대시보드를 구성하여 사용자에게 제공하였습니다.
-![image](https://github.com/user-attachments/assets/aa80a35b-356b-4350-9642-24e019bdd3df)
 
 ### ✅ PostMan 결과
 ![image](https://github.com/user-attachments/assets/66107076-2e88-4354-bd3a-d184c9ffa312)
@@ -403,21 +401,11 @@ return {"generatedText": output["output_text"]}
 ![image](https://github.com/user-attachments/assets/392a1097-8016-4cd9-8177-214cb843dec9)
 
 ### ✅ SQL 동작 확인: MySQL 데이터베이스에서 데이터를 정확히 삽입하고 가져오는 기능이 정상적으로 작동함을 확인했습니다.
-![image](https://github.com/user-attachments/assets/25294d10-3548-4720-8dd0-54737fa5410e)
-![image](https://github.com/user-attachments/assets/84e27ac6-3449-4fab-a5ca-0db86ef14d7d)
-![image](https://github.com/user-attachments/assets/93d90458-e390-498e-93f4-065b4ee6d0ea)
-![image](https://github.com/user-attachments/assets/966d1f6b-a51d-4838-a7c5-b02c5814b63a)
-
-### ✅ 데이터 크롤링 성공: 주요 자동차 등록 정보를 제공하는 웹사이트로부터 데이터를 성공적으로 크롤링하여 MySQL 데이터베이스에 저장하였습니다.
-![image](https://github.com/user-attachments/assets/8aecd593-11ed-4325-ac2b-282e0f1cc977)
-
-### ✅ Streamlit UI 구성 완료: 자동차 등록 현황과 통계를 시각화한 대화형 대시보드를 구성하여 사용자에게 제공하였습니다.
 ![image](https://github.com/user-attachments/assets/8ce37889-8a67-4ae5-8585-c2210fd84f2c)
 ![image](https://github.com/user-attachments/assets/4ad7156f-38e1-495d-bcfc-4982eb2a528a)
 ![image](https://github.com/user-attachments/assets/600e565e-d874-4764-9197-cf38bdc2bcc3)
 ![image](https://github.com/user-attachments/assets/d7c9c2a9-9cdf-4305-aee7-e91bbf184157)
-![image](https://github.com/user-attachments/assets/498b401f-1c35-474b-be94-aadd29d33607)
-![image](https://github.com/user-attachments/assets/b2adee6d-21db-4f3c-9898-9f785a637b10)
+
 
 ### ✅ 데이터 크롤링 성공: 주요 자동차 등록 정보를 제공하는 웹사이트로부터 데이터를 성공적으로 크롤링하여 MySQL 데이터베이스에 저장하였습니다.
 ![image](https://github.com/user-attachments/assets/8aecd593-11ed-4325-ac2b-282e0f1cc977)
@@ -438,5 +426,5 @@ _😍데이터를 크롤링하고 MySQL 데이터베이스에 연동하며 데�
 _좋은 팀원분들을 만나 덕분에 많이 배울 수 있었고 프로젝트도 잘 마무리될 수 있었다고 생각합니다. 수고하셨습니다😊_
 
 🪐<b>박예닮</b>  
-_AWS에 대한 개념이 모호했는데, 직접 사용하고 DLLS와의 연동 세팅을 해보면서 확실하게 알 수 있었습니다. 덕분에 DevOps에 좀 더 흥미가 생겼습니다. 모두 고생하셨습니다!_
+_해보고 느낀건 아직은 많이 미숙한거같습니다 열심히해야될거같습니다 미안합니다 사랑합니다 감사합니다._
 
