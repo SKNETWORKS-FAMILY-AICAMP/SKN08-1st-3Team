@@ -234,22 +234,9 @@
 작은 것 같지만 이와 같은 것들이 쌓여서 아주 기민하고 민첩한 조직을 만들어 냅니다.
 ```
 # 4. 애자일 보드
-### ✅ Frontend - Frontend 페이지를 Vue 로 구성 (화면 설계서)
-![image](https://github.com/user-attachments/assets/b547b885-25f8-413f-ab40-3251e8b77e95)
-![image](https://github.com/user-attachments/assets/b947d9db-b2d1-4494-8842-82285289d6ff)
-<br><br><br>
+![image](https://github.com/user-attachments/assets/3ac9cc27-1c40-4253-94b5-928158c804ce)
+![image](https://github.com/user-attachments/assets/0575f955-aa18-4e8b-8235-81a51d28ba41)
 
-### ✅ Backend - Backend 데이터 관리로 Django 구성(요구 사항 정의서)
-![image](https://github.com/user-attachments/assets/89ece460-81bd-44cf-bc7d-644487b3b267)
-<br><br><br>
-
-### ✅ FastAPI - AI 서빙용으로 FastAPI 구성
-![image](https://github.com/user-attachments/assets/ccd6592b-4e7c-4fab-a7fe-6f16e8515195)
-<br><br><br>
-
-### ✅ AI Client - 비용 최적화를 위해 DLLS 구성 (모델 파인튜닝 및 추론 설계서)
-![image](https://github.com/user-attachments/assets/ee098b0b-77b0-4e53-9a47-836e61081638)
-<br><br><br>
 
 
 
