@@ -78,15 +78,7 @@
 ### 각 통신 방식의 장단점
 - 동기 통신의 경우 설계가 간단하며, 직관적이지만 그 작업이 끝날 때까지 아무런 작업도 할 수 없다는 단점이 있습니다.
 - 비동기 통신의 경우 동기 통신보다 비교적 복잡한 구현이 필요하지만, 작업이 끝날 때 까지 기다리지 않아도 되기 때문에 그 동안 다른 작업을 수행할 수 있으므로 효율적인 자원의 사용이 가능합니다.
-### 비동기 통신 방식 DLLS
-- 모델이 Request에 따라 Response를 하기까지 입력에 대한 결과를 추론하는데에 시간이 필요합니다. 만약 Response를 반환하는 과정을 동기 통신 방식으로 구현한다면, 결과 반환이 완료될 때 까지 사용자는 아무것도 하지 못합니다.
-- 따라서, 모델이 추론하여 Response를 반환하는 과정을 비동기 방식으로 설계하여 사용자가 추론 요청 이외의 작업을 수행할 때에도 문제가 없도록 하였습니다.
-### 물리적 로컬 서버 구현 이유
-- AWS 상에서 LLM 모델의 Fine Tuning 및 추론 과정을 구동시킬 경우, 예산을 넘어서는 비용이 발생할 가능성이 존재합니다.
-- 이에 컴퓨팅 자원이 많이 필요한 부분을 따로 물리적 로컬 서버에서 구동하여 Response를 반환하도록 설계하였습니다.
-- 결과적으로, 모델 서빙 역할의 FastAPI와 DLLS 상의 AI Client 사이의 비동기 통신을 통해 비용적인 측면에서의 최적화를 달성하고 사용자가 서비스를 사용함에 있어서 불편함이 없도록 하였습니다.
-### TLS/SSL 보안 통신 환경 구축
-- 커스텀 서버 특성 상, 비교적 해킹에 취약할 가능성이 존재합니다. 이에 보안 프로토콜을 적용하여 외부에서 우리의 서비스에 접근할 수 없도록 보안 통신 환경을 구축하였습니다.
+
 
 ### ✅프로젝트 목표
 1. **데이터 수집 및 관리 자동화**: 차량 정보를 효율적으로 크롤링하고 잘못된 데이터를 자동으로 수정할 수 있는 시스템 구축.  
@@ -110,22 +102,27 @@
     <td>Development & Merge</td>
     <td><img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=Git&logoColor=white"/></td>
     <td><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=GitHub&logoColor=white"/></td>
-    
+    <td><img src="https://img.shields.io/badge/gitkraken-179287?style=flat&logo=Git&logoColor=gitkraken&logoColor=white"/></td>
+  </tr>  
 </table>
 
->### <span style="color:cyan"> Frontend </span>
+>### <span style="color:cyan"> Streamlit </span>
 <table>
+  <tr>
+    <td>PyCharm</td>
+    <td><img src="https://img.shields.io/badge/pycharm-%23000000?style=flat&logo=pycharm&logoColor=white"/></td>
+    <td><img src="https://img.shields.io/badge/python-3776AB?style=flat&logo=python&logoColor=white"/></td>
+    <td><img src="https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white"/></td>
+    <td></td>
+    <td></td>
   </tr>
-  <tr>
-    <td>Markup & Style & JS</td>
-    <td><img src="https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white"/></td>
-    <td><img src="https://img.shields.io/badge/css-1572B6?style=flat&logo=css3&logoColor=white"/></td>
 </table>
 
->### <span style="color:cyan"> Backend </span>
+
+>### <span style="color:cyan"> Data Server </span>
 <table>
   <tr>
-    <td>BE IDE & Language</td>
+    <td>PyCharm</td>
     <td><img src="https://img.shields.io/badge/pycharm-%23000000?style=flat&logo=pycharm&logoColor=white"/></td>
     <td><img src="https://img.shields.io/badge/python-3776AB?style=flat&logo=python&logoColor=white"/></td>
   </tr>  
@@ -134,7 +131,6 @@
     <td><img src="https://img.shields.io/badge/mysql-4479A1?style=flat&logo=mysql&logoColor=white"/></td>
     <td></td>
   </tr>
-  
 </table>
 <br><br><br>
 
@@ -159,33 +155,7 @@
 ![image](https://github.com/user-attachments/assets/13b87327-f1d3-4184-b742-d229ed28ecce)
 
 
-# 5. 비용 최적화를 위한 Deep Learning Local Server 구성 + 보안 설정을 위한 TLS / SSL 소켓 구성
-### 5-1 Socket Server (FastAPI) 구성 및 구동 방법
-
-
-### 5-2 Socket Client (ai-client) 구성 및 구동 방법
-
-# 6. 데이터 전처리
-
-## 벡터 저장소
-
-```
-
-
-# 7. 모델
-
-```
-
-## 질의 응답
-
-```
-
-## 요약
-
-```
-
-
-# 8. Result (수행 결과)
+# 5. Result (수행 결과)
 
 ### ✅ PostMan 결과
 ![image](https://github.com/user-attachments/assets/66107076-2e88-4354-bd3a-d184c9ffa312)
@@ -208,7 +178,7 @@
 <br><br><br>
 
   
-# 9. 한 줄 회고
+# 6. 한 줄 회고
 🤓<b>양의정</b>  
 _👏크롤링을 통해 데이터를 수집하고 데이터베이스에 저장한 정보를 한눈에 볼 수 있는 사이트를 만들었습니다. 이 프로젝트를 통해 개발이 이런 것이구나를 느낄 수 있는 기회였습니다.👏_
 
